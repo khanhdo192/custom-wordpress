@@ -9,7 +9,7 @@ if (!defined('ABSPATH')) {
 <div class="vtt-reboot">
 	<div class="vtt-container">
 		<div class="vtt-title">
-			<h1 class="text">Thông tin sản phẩm</h1>
+			<h1 class="text">Medias Information</h1>
 		</div>
 		<form class="vtt-form vtt-form-medium" autocomplete="off">
 			<div class="vtt-row row-fx">

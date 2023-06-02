@@ -7,5 +7,5 @@ if (!defined('ABSPATH')) {
 }
 ?>
 <div class="wrap">
-	Xin chào
+	<h1>Contents Management System</h1>
 </div>

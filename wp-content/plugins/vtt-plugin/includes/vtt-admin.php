@@ -59,13 +59,13 @@ class VTT_Admin
 	 */
 	public function admin_menu()
 	{
-		add_menu_page(__('VTT Menu', 'vtt-plugin'), __('VTT Menu', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-plugin');
-		add_submenu_page('vtt-plugin', __('Trang chính', 'vtt-plugin'), __('Trang chính', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-plugin', array($this, 'pageHome'));
-		add_submenu_page('vtt-plugin', __('Quản lý sản phẩm', 'vtt-plugin'), __('Quản lý sản phẩm', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-product', array($this, 'pageProduct'));
-		add_submenu_page('vtt-plugin', __('Quản lý lọc', 'vtt-plugin'), __('Quản lý lọc', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-filter', array($this, 'pageFilter'));
-		add_submenu_page('vtt-plugin', __('Quản lý hình ảnh, video', 'vtt-plugin'), __('Quản lý hình ảnh, video', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-media', array($this, 'pageMedia'));
-		add_submenu_page('vtt-plugin', __('Quản lý liên hệ', 'vtt-plugin'), __('Quản lý liên hệ', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-contact', array($this, 'pageContact'));
-		add_submenu_page('vtt-plugin', __('Quản lý mua, đặt hàng', 'vtt-plugin'), __('Quản lý mua, đặt hàng', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-product-purchase', array($this, 'pageProductPurchase'));
+		add_menu_page(__('CMS', 'vtt-plugin'), __('CMS', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-plugin');
+		add_submenu_page('vtt-plugin', __('Main', 'vtt-plugin'), __('Main', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-plugin', array($this, 'pageHome'));
+		add_submenu_page('vtt-plugin', __('Products', 'vtt-plugin'), __('Products', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-product', array($this, 'pageProduct'));
+		add_submenu_page('vtt-plugin', __('Filters', 'vtt-plugin'), __('Filters', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-filter', array($this, 'pageFilter'));
+		add_submenu_page('vtt-plugin', __('Medias', 'vtt-plugin'), __('Medias', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-media', array($this, 'pageMedia'));
+		add_submenu_page('vtt-plugin', __('Contacts', 'vtt-plugin'), __('Contacts', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-contact', array($this, 'pageContact'));
+		add_submenu_page('vtt-plugin', __('Orders', 'vtt-plugin'), __('Orders', 'vtt-plugin'), 'vtt_menu_admin', 'vtt-product-purchase', array($this, 'pageProductPurchase'));
 	}
 	
 	// Nạp trước tài liệu;

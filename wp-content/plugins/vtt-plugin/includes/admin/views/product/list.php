@@ -9,11 +9,11 @@ if (!defined('ABSPATH')) {
 <div class="vtt-reboot">
 	<div class="vtt-container">
 		<div class="vtt-title">
-			<h1 class="text">Thông tin sản phẩm</h1>
+			<h1 class="text">Products Information</h1>
 		</div>
 		<div class="vtt-card">
 			<div class="card-header">
-				<a class="vtt-btn btn-create" href="<?php echo self::urlCreate();?>">Thêm thông tin sản phẩm</a>
+				<a class="vtt-btn btn-create" href="<?php echo self::urlCreate();?>">Add Product</a>
 			</div>
 			<table class="vtt-table table-border">
 				<tbody>

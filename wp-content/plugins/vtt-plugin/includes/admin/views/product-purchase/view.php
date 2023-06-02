@@ -13,7 +13,7 @@ if(empty($detail)){
 <div class="vtt-reboot">
 	<div class="vtt-container">
 		<div class="vtt-title">
-			<h1 class="text">Thông tin sản phẩm</h1>
+			<h1 class="text">Orders Information</h1>
 		</div>
 		<div class="vtt-row">
 			<div class="vtt-col-12">
