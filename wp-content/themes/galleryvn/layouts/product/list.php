@@ -1,9 +1,9 @@
 <?php if (!defined('ABSPATH')) exit; ?>
 <?php
 	$theCategory = get_queried_object();
-	$categoryId = $theCategory->term_id;
-	$categorySlug = $theCategory->slug;
-	$categoryTaxonomy = $theCategory->taxonomy;
+	// $categoryId = $theCategory->term_id;
+	// $categorySlug = $theCategory->slug;
+	// $categoryTaxonomy = $theCategory->taxonomy;
 	
 	$maxProduct = 6;
 	$page = isset($_GET['page']) ? $_GET['page'] : 1;
@@ -13,13 +13,13 @@
 		'post_type' => 'product',
 		'posts_per_page' => $maxProduct,
 		'post_status' => 'publish',
-		'tax_query' => array(
-			array(
-				'taxonomy' => $categoryTaxonomy,   // taxonomy name
-				'field' => $categorySlug,           // term_id, slug or name
-				'terms' =>  $categoryId,                  // term id, term slug or term name
-			)
-		),
+		// 'tax_query' => array(
+		// 	array(
+		// 		'taxonomy' => $categoryTaxonomy,   // taxonomy name
+		// 		'field' => $categorySlug,           // term_id, slug or name
+		// 		'terms' =>  $categoryId,                  // term id, term slug or term name
+		// 	)
+		// ),
 		'page' => $page,
 		'offset' => $offset
 	));

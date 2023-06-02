@@ -17,7 +17,7 @@ class VTT_BeFunctionMedia {
 
 	// Private methods cannot be called
 	private function __construct() {
-		$this->urlUpload = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}/wp-content/uploads/";
+		$this->urlUpload = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://{$_SERVER['HTTP_HOST']}/techblog/wp-content/uploads/";
 	}
 	
 	// Private methods cannot be called
