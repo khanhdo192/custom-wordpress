@@ -75,7 +75,7 @@ class VTT_Helper {
 	}
 	
 	public function urlUpload(string $param=''){
-		$finalUrl = $this->URL . '/wp-content/uploads/' . $param;
+		$finalUrl = $this->URL . '/techblog/wp-content/uploads/' . $param;
 		return $finalUrl;
 	}
 	

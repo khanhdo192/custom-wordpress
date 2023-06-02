@@ -113,11 +113,11 @@ class Helper {
 	}
 
 	public static function imageUrlAsset(string $param=''){
-		$finalUrl = self::$myURL .'/wp-content/themes/'. NAME_THEME . '/assets/images/'. $param;
+		$finalUrl = self::$myURL .'/techblog/wp-content/themes/'. NAME_THEME . '/assets/images/'. $param;
 		return $finalUrl;
 	}
 	public static function imageUrlUpload(string $param=''){
-		$finalUrl = self::$myURL . '/wp-content/uploads/' . $param;
+		$finalUrl = self::$myURL . '/techblog/wp-content/uploads/' . $param;
 		return $finalUrl;
 	}
 	public static function pluginActive(string $dir=''){
